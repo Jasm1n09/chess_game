@@ -1,2 +1,10 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using Library;
+
+namespace Program;
+public class Program{
+public static int Main(){
+    var field = new ChessField();
+    Console.WriteLine(field);
+    return 0;
+ }
+}
