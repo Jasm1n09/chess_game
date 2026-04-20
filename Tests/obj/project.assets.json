@@ -393,16 +393,6 @@
         "build": {
           "build/net8.0/xunit.runner.visualstudio.props": {}
         }
-      },
-      "Library/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v10.0",
-        "compile": {
-          "bin/placeholder/Library.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Library.dll": {}
-        }
       }
     }
   },
@@ -913,16 +903,10 @@
         "xunit.runner.visualstudio.3.1.4.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
-    },
-    "Library/1.0.0": {
-      "type": "project",
-      "path": "../Library/Library.csproj",
-      "msbuildProject": "../Library/Library.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net10.0": [
-      "Library >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 17.14.1",
       "coverlet.collector >= 6.0.4",
       "xunit >= 2.9.3",
@@ -935,11 +919,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/config/workspace/chess_game/Tests/Tests.csproj",
+      "projectUniqueName": "/workspace/chess_game/Tests/Tests.csproj",
       "projectName": "Tests",
-      "projectPath": "/config/workspace/chess_game/Tests/Tests.csproj",
+      "projectPath": "/workspace/chess_game/Tests/Tests.csproj",
       "packagesPath": "/config/.nuget/packages/",
-      "outputPath": "/config/workspace/chess_game/Tests/obj/",
+      "outputPath": "/workspace/chess_game/Tests/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/config/.nuget/NuGet/NuGet.Config"
@@ -954,11 +938,7 @@
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
-          "projectReferences": {
-            "/config/workspace/chess_game/Library/Library.csproj": {
-              "projectPath": "/config/workspace/chess_game/Library/Library.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

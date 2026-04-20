@@ -1,30 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net10.0": {
-      "Library/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v10.0",
-        "compile": {
-          "bin/placeholder/Library.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Library.dll": {}
-        }
-      }
-    }
+    "net10.0": {}
   },
-  "libraries": {
-    "Library/1.0.0": {
-      "type": "project",
-      "path": "../Library/Library.csproj",
-      "msbuildProject": "../Library/Library.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    "net10.0": [
-      "Library >= 1.0.0"
-    ]
+    "net10.0": []
   },
   "packageFolders": {
     "/config/.nuget/packages/": {}
@@ -32,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/config/workspace/chess_game/Program/Program.csproj",
+      "projectUniqueName": "/workspace/chess_game/Program/Program.csproj",
       "projectName": "Program",
-      "projectPath": "/config/workspace/chess_game/Program/Program.csproj",
+      "projectPath": "/workspace/chess_game/Program/Program.csproj",
       "packagesPath": "/config/.nuget/packages/",
-      "outputPath": "/config/workspace/chess_game/Program/obj/",
+      "outputPath": "/workspace/chess_game/Program/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/config/.nuget/NuGet/NuGet.Config"
@@ -51,11 +32,7 @@
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
-          "projectReferences": {
-            "/config/workspace/chess_game/Library/Library.csproj": {
-              "projectPath": "/config/workspace/chess_game/Library/Library.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
