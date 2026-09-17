@@ -1,10 +1,11 @@
 ﻿namespace Tests;
-
-public class UnitTest1
+public class Tests
 {
-    [Fact]
-    public void Test1()
-    {
-        Assert.Equal(0, 0);
-    }
+    public static int Main(){
+    var field = new ChessField();
+    Console.WriteLine(field);
+    return 0;
 }
+
+
+
